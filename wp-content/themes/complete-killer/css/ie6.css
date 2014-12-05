@@ -1,0 +1,157 @@
+#middle {width: 400px;}
+#right_column {width: 206px;}
+
+#submit {text-indent: 0px; background: #1a9acb; color: #fff; height: 25px;}
+
+/* lower widget buckets */
+.one,.two,.three,.four {
+	background:#83aaa9;
+	height:164px;
+	width:204px;
+	display:inline;
+	float:left;
+	margin-right:23px;
+
+}
+
+
+#interior_content ul {
+	margin:15px 20px 0px 0px;
+	padding: 0px;
+	float: left;
+	display: inline;
+		list-style: inside none;
+		margin-left: -15px;
+
+}
+
+#interior_content ul li {
+	width:178px;
+	padding-right:1px;
+	color:#1c7198;
+	line-height:15px;
+	font-size:10px;
+	margin-bottom: 25px;
+	text-shadow: none;
+	list-style: inside none;
+}
+
+#interior_content ul li h3 {
+	font-size:22px;
+	line-height: 20px;
+	text-transform: uppercase;
+	margin:0 0px 7px;
+}
+
+.page-template-two-column-php #right_column {
+	float:right;
+	display:inline;
+	height:574px;
+	border:solid 1px #bfd8de;
+	padding:11px;
+	clear: none;
+	}
+
+	.page-template-two-column-php #right_column ul{
+		width: 120px !important;
+		margin: 0px;
+		padding: 0px;
+		}
+
+
+
+.middle {
+	margin: 0px;
+	padding: 0px;
+	width: 415px !important;
+}
+
+
+.page-id-33 #interior_content UL {
+ width: 200px !important;
+clear: none;
+margin: 0px !important; padding: 0px !important;
+margin-left: -15px;
+left: 0px;
+}
+
+#die_fleas_die {
+	height:135px;
+	width:182px;
+	padding:0 11px 11px;
+	margin:0;
+}
+
+#die_fleas_die h2.widgettitle {
+	font-family:'ITCAvantGardeGothicStdDemiCon';
+	font-size:28px;
+	text-align:center;
+	margin-top:14px;
+	margin-bottom:16px;
+	width: 190px;
+}
+
+
+#find_a_vet {
+	height:150px;
+	width:182px;
+	padding:5px 11px 11px;
+	font-family:'ITCAvantGardeGothicStdDemiCon';
+	background:url(images/find_a_vet_bg.png) no-repeat;
+	background-position:123px 87px;
+}
+
+#content { margin: 0px;}
+
+#cu3ox{left: 0px !important;}
+
+body.home .whole{margin-left: 44px;}
+
+
+
+
+
+
+	
+/* overlay social links */
+.overlay .custom_images {
+	position:absolute;
+	top:500px;
+	right:0;
+	width:182px;
+	height:100px;
+}
+
+.overlay .custom_images a {
+	display:inline;
+	float:left;
+	width:42px;
+	height:42px;
+	text-indent:-9999px;
+	margin-right:8px;
+	margin-left:0;
+	padding:0;
+	cursor:pointer;
+}
+
+.overlay .custom_images a span {
+	display:none;
+}
+
+.overlay .custom_images p {
+	font-size:12px;
+}
+
+.overlay a.email {
+	background:url(images/social_icons.png) no-repeat;
+	background-position:0 -1px;
+	display:block;
+}
+
+.overlay a.twitter {
+	background:url(images/twitter_ie6.png) no-repeat;
+}
+
+.overlay a.facebook {
+	background:url(images/facebook_ie6.png) no-repeat;
+}

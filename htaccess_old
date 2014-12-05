@@ -1,0 +1,23 @@
+php_value post_max_size 8M
+php_value upload_max_filesize 8M
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+
+AuthName "Password Required"
+AuthType Basic
+AuthUserFile /mnt/stor2-wc1-dfw1/392361/www.completekiller.com/web/cgi-bin/.htpasswd
+Require valid-user
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^completekiller.com.php5-18.dfw1-1.websitetestlink.com
+RewriteRule ^(.*)$ http://www.completekiller.com.php5-18.dfw1-1.websitetestlink.com/$1 [R=permanent,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php/$1 [L]
+
+RewriteCond %{REQUEST_METHOD} ^TRACE 
+RewriteRule .* - [F]

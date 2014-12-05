@@ -1,0 +1,91 @@
+<?php if ( is_front_page()) { 
+echo ('<!-- index tracking pixels -->
+<img src="http://leadback.advertising.com/adcedge/lb?site=695501&srvc=1&betr=frontline_cs=1&betq=13559=438060" width = "1" height = "1" border = "0"> 
+<img src="http://ad.doubleclick.net/activity;src=1379696;dcnet=4155;boom=48557;sz=1x1;ord=1?"width=1 height=1 border=0>
+<!-- end of index tracking pixels -->');
+}
+else
+{ 
+	echo('<!-- interior tracking pixels -->
+<img src="http://leadback.advertising.com/adcedge/lb?site=695501&srvc=1&betr=frontline03_cs=1&betq=13574=438121" width = "1" height = "1" border = "0"> 
+<img src="http://ad.doubleclick.net/activity;src=1379696;dcnet=4155;boom=48901;sz=1x1;ord=1?"width=1 height=1 border=0>
+<!-- end of interior tracking pixels -->');
+		
+		} ?>
+
+
+
+
+
+
+<script type="text/javascript">
+	
+	var $player = $('<div class="cover"><div class="close"/><div class="player"><div id="social_coupon_offer"><a href="#">Download Coupon</a></div></div></div>');
+
+	//Alert a message when the user shares somewhere
+	function shareEventHandler(evt) { 
+	    if (evt.type == 'addthis.menu.share') { 
+			
+			$('div.overlay').fadeToggle("fast", "linear");
+			$('div.overlay').prepend($player);
+
+			$('.overlay').click(function(){
+				$(this).fadeToggle("fast", "linear");
+			});
+			$('.close').click(function(){$('.overlay').hide();});
+
+
+	    }
+	}
+	
+	// Listen for the share event
+	addthis.addEventListener('addthis.menu.share', shareEventHandler);
+
+	function addthisReady(evt) {
+/* 		myRef = window.open(''+self.location,'mywin','left=20,top=20,width=1000,height=600,toolbar=1,resizable=0'); */
+	}
+	// Listen for the ready event
+	
+/*
+	addthis.addEventListener('addthis.menu.share', addthisReady);
+	
+	
+	var addthis_share = {
+    templates: {
+		twitter: 'I just got a big discount on #frontlineplus flea and tick killer. Get your coupon here: {{url}}'
+    },
+   }
+*/
+
+/*
+Save big on FRONTLINE¬ Plus
+I just got a valuable coupon for FRONTLINE Plus flea and tick killer and want you to save, too. Get your coupon here: http://www.completekiller.com/coupon
+*/
+	
+</script>	
+
+
+
+<!--
+				<div id ="cu3ox" style="width:978px;height:439px;margin:0 auto; position: relative; left: -44px;">
+  <div id ="cu3ox1"></div>
+  <script language="JavaScript" type="text/javascript">
+    swfobject.createSWF(
+      {data:"engine/cu3ox.swf", width:"100%", height:"100%" },
+      {FlashVars:"images=data/images1&cfgsuffix=1",menu:true, allowFullScreen:false, allowScriptAccess:'sameDomain', wmode:"transparent", bgcolor:'#FFFFFF', 
+       devicefont:false, scale:'noscale', loop:true, play:true, quality:'high'}, "cu3ox1");
+  </script><a style="display:none" href="http://cu3ox.com">Web Flash Gallery by cu3ox.com v1.6</a><noscript>
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+      codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" 
+      width="100%" height="100%" id="cu3ox1" align="middle">
+    <param name="allowScriptAccess" value="sameDomain" /><param name="allowFullScreen" value="false" />
+    <param name="movie" value="cu3ox.swf" /><param name="quality" value="high"/><param name="scale" value="noscale"/>
+    <param name="wmode" value="transparent" /><param name="bgcolor" value="#ffffff" />
+	<param name="FlashVars" value="images=data/images1&cfgsuffix=1" />
+    <embed src="engine/cu3ox.swf" quality="high" scale="noscale" bgcolor="#ffffff" width="100%" height="100%" name="cu3ox" wmode="transparent"
+      align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" 
+      pluginspage="http://get.adobe.com/flashplayer/" />
+    </object></noscript>
+</div>
+	-->			
+

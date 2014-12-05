@@ -1,0 +1,57 @@
+#meet_the_force_drop {height: 75px; padding-bottom: 25px;}
+#submit {text-indent: 0px; background: #1a9acb; color: #fff; height: 25px;}
+#middle ul li {}
+
+.page-id-33 #interior_content UL {
+	width: 200px !important;
+	clear: none;
+	margin-left: -15px;
+	left: 0px;
+}
+
+#interior_content ul {
+	margin:15px 20px 0px 0px;
+	padding: 0px;
+	float: left;
+	display: inline;
+	list-style: inside none;
+	margin-left: -15px;
+	}
+
+.page-template-two-column-php #right_column {
+	float:right;
+	display:inline;
+	height:580px;
+	border:solid 1px #bfd8de;
+	padding:11px;
+	clear: none;
+	}
+
+	.page-template-two-column-php #right_column ul{
+		width: 120px !important;
+		margin-left: -16px;
+		margin-top: -1px;
+
+		}
+		
+.middle {
+	margin: 0px;
+	padding: 0px;
+	width: 415px !important;
+}
+
+
+#find_a_vet #submit {
+	background:url("http://www.completekiller.com.php5-18.dfw1-1.websitetestlink.com/wordpress/wp-content/themes/complete-killer/images/submit_btn.png") no-repeat !important;
+	width:53px;
+	height:16px;
+	display:block;
+	text-indent:-9999px;
+	border:none;
+	margin-top:5px;
+	margin-left:60px;
+	cursor:default;
+	font-size: 1px; 
+	color: #279fce;
+	text-align: right;
+}

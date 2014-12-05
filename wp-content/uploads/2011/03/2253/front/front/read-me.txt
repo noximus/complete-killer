@@ -1,0 +1,15 @@
+This is installation guide for your CU3ER project New Project.
+Paths for files are based on settings you've set in CU3ER admin.
+
+Follow this steps to install CU3ER on your site:
+1. Copy CU3ER.swf and js folder to .
+2. Copy CU3ER-config.xml to CU3ER-config.xml
+3. If folder /images exists copy content of /images folder to images
+4. If folder /fonts exists copy content of /fonts folder to fonts
+5. View page source of embed_example.html and
+   a) copy first <!-- CU3ER content JavaScript part starts here --> until <!-- CU3ER content JavaScript part end here --> to HEAD part of your HTML document where you want to place CU3ER
+   b) copy first <!-- CU3ER content HTML part starts here --> until <!-- CU3ER content HTML part ends here --> to BODY part of your HTML document where you want to place CU3ER
+
+
+For any trouble during CU3ER installation please log in to http://support.getcu3er.com and raise a support ticket.
+Thanks for using CU3ER!

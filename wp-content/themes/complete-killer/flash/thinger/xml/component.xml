@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<component> 
+	<size width="890" height="309"/>
+	<auto_slide>true</auto_slide>
+	<slideshow_delay>6</slideshow_delay>
+	<fx_name>Back.easeInOut</fx_name>
+	<fx_speed>1</fx_speed>
+	<controls_visible>true</controls_visible>
+	<slices minimum="1" maximum="4"/> <!-- all must be equal or garter than 1-->
+	<cube_color>0x00000</cube_color>
+	
+
+	<button>
+		<background color="0x000000" alpha="0.5"/>
+		<label      normal_color="0xCCCCCC" hoover_color="0xFFFFFF" />
+		<position x="-400" y="0"/>
+	</button>
+
+	
+	<images>
+		<item external_url="/killer-savings/"> 
+			<path>http://www.completekiller.com/wp-content/themes/complete-killer/flash/thinger/images/slide1-1.jpg</path>
+			<captions>
+				<line>
+					<format font_size="16" font_color="0xF4F5E7" font_bold="true" background_color="0x6D8CA0" background_alpha="1" />
+					<effect type="right_to_left" />
+					<position x="-2000" y="130" />
+					<angle>10</angle>
+					<text></text>
+				</line>
+			</captions>
+		</item>
+		<item external_url="/killer-savings/free-rabies-vaccine/">
+			<path>http://www.completekiller.com/wp-content/themes/complete-killer/flash/thinger/images/slide1.jpg</path>
+			<captions>
+				<line>
+					<format font_size="16" font_color="0xFFFFFF" font_bold="true" background_color="0x666633" background_alpha="0.7" />
+					<effect type="top_to_bottom" />
+					<position x="-2000" y="170" />
+					<angle>0</angle>
+					<text></text>
+				</line>
+				<line>
+					<format font_size="12" font_color="0x666633" font_bold="true" background_color="0xCCCC99" background_alpha="1" />
+					<effect type="bottom_to_top" />
+					<position x="-2000" y="220" />
+					<angle>0</angle>
+					<text></text>
+				</line>
+			</captions>
+		</item>
+		
+		<item external_url="/killing-101/">  
+			<path>http://www.completekiller.com/wp-content/themes/complete-killer/flash/thinger/images/slide5.jpg</path>
+			<captions>
+				<line>
+					<format font_size="16" font_color="0xF4F5E7" font_bold="true" background_color="0x6D8CA0" background_alpha="1" />
+					<effect type="right_to_left" />
+					<position x="-2000" y="130" />
+					<angle>10</angle>
+					<text></text>
+				</line>
+			</captions>
+		</item>
+	</images>
+</component>

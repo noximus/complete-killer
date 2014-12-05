@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+
+body {
+	font-family: Helvetica;
+	color: black;
+	font-size: 9px;
+}
+
+a {
+	color: #508ba4;
+	text-decoration: none;
+}
+
+
+#wrapper {
+	width: 970px;
+	height: 631px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('images/bg_full2.jpg');
+	position: relative;
+	
+/*
+	border: 1px red solid;
+*/
+}
+
+
+#pets {
+	position: absolute;
+	width: 424px;
+	height: 435px;
+	background-image: url('images/pets.png');
+	left: 480px;
+	top: 70px;
+	
+/*
+	border: 1px green solid;
+*/
+}
+
+
+#content {
+	position: absolute;
+	top: 50px;
+	left: 230px;
+	width: 415px;
+	height: 280px;
+	
+
+/*
+	border: 1px blue solid;
+*/
+}
+
+#content img {
+	margin-bottom: 18px;
+}
+
+#legal {
+	position: absolute;
+	top: 420px;
+	left: 230px;
+	height: 80px;
+	line-height: 12px;
+	font-weight: bold;
+	
+/*
+	border: 1px orange solid;
+*/
+}
+
+#legal p {
+	margin-top: 5px;
+}
+
+.legal_g {
+	font-size: 9px;
+	color: #9b9a98;
+	font-weight: normal;
+}
+
+
+#coupon_download{
+	margin:0px; 
+	margin-bottom: 18px;
+	padding:0px;
+	width:284px; 
+	height:50px; 
+	background:url(images/coupon_download2.png) top left no-repeat; 
+	display:block; float:left;
+}
+
+#coupon_download:hover{
+	background-position:
+	bottom left;
+}

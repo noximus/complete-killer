@@ -1,0 +1,67 @@
+﻿<data>
+  <debug>0</debug><licence><![CDATA[!?bs9Y93"IpeM}XQh/IE}WL3Migc\GK)]]></licence>
+  <project_settings>
+    <width>891</width>
+    <height>309</height>
+  </project_settings>
+  <settings>
+    <folder_images>images</folder_images>
+    <folder_fonts>fonts</folder_fonts>
+    <background>
+      <color transparent="true">0xffffff</color>
+    </background>
+    <start_slide>1</start_slide>
+    <auto_play>true</auto_play>
+    <randomize_slides>false</randomize_slides>
+    <branding align_to="stage" align_pos="TR" x="-10" y="10">
+      <remove_logo_loader>false</remove_logo_loader>
+      <remove_right_menu_info>false</remove_right_menu_info>
+      <remove_right_menu_licence>false</remove_right_menu_licence>
+    </branding>
+    <camera x="0" y="0" z="0" angleX="0" angleY="0" angleZ="0"/>
+  </settings>
+  <fonts/>
+  <preloader type="linear" align_to="stage" align_pos="MC" width="200" height="20" x="0" y="0">
+    <background padding="5">
+      <tweenShow tint="0x2185C5" alpha="0.85"/>
+      <tweenOver alpha="1"/>
+      <tweenHide alpha="0"/>
+    </background>
+    <loader>
+      <tweenShow tint="0xFFFFFF" alpha="0.8"/>
+      <tweenOver tint="0xFFFFFF" alpha="1"/>
+      <tweenHide tint="0xFFFFFF" alpha="0"/>
+    </loader>
+  </preloader>
+  <controls/>
+  <defaults>
+    <slide time="5" color="0x000000">
+      <image align_pos="MC" x="0" y="0" scaleX="1" scaleY="1"/>
+      <link target="_blank"/>
+      <description>
+        <link target="_blank"/>
+      </description>
+    </slide>
+    <transition type="2D" columns="8" rows="5" type2D="fade" flipAngle="180" flipOrder="45" flipShader="none" flipOrderFromCenter="false" flipDirection="left" flipColor="0x878787" flipBoxDepth="10" flipDepth="50" flipEasing="Sine.easeOut" flipDuration=".6" flipDelay=".15" flipDelayRandomize=".5"/>
+  </defaults>
+  <slides width="890.7" height="309" align_pos="TL" x="0" y="0">
+    <slide>
+      <url><![CDATA[panel1.jpg]]></url>
+      <link target="_self"/>
+      <description/>
+    </slide>
+    <transition type="2D" type2D="fade" rows="5" columns="8"/>
+    <slide>
+      <url><![CDATA[panel2.jpg]]></url>
+      <link target="_blank"/>
+      <description/>
+    </slide>
+    <transition type2D="fade" type="2D" rows="5" columns="8"/>
+    <slide>
+      <url><![CDATA[panel3.jpg]]></url>
+      <link target="_blank"/>
+      <description/>
+    </slide>
+    <transition type="2D" rows="5" columns="8" type2D="fade"/>
+  </slides>
+</data>

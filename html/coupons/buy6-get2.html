@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Buy 6 get 2 coupon</title>
+
+<?php 
+
+	$trackerEvent = "/html/coupons/buy6-get2.html";
+
+	if (@$_GET["coupon"]) {
+
+		$trackerEvent = "/html/coupons/buy6-get2.pdf";
+
+?>
+
+<meta http-equiv="refresh" content="2;url=http://www.completekiller.com/coupon_offer_ab/download/buy6-get2.pdf">
+
+<?php } ?>
+
+<!--[if lt IE 7.]>
+	<script defer type="text/javascript" src="pngfix.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="reset.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8" />
+
+<!--[if lt IE 7.]>
+	<link rel="stylesheet" href="ie-style.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+</head>
+
+<body>
+
+<?php if (@$_GET["coupon"]) { ?>
+
+
+<?php } else { ?>
+
+
+<? } ?>
+
+<div id="wrapper">
+
+	<div id="content">
+
+		<img class="img_clickaway" src="images/clickaway.png" width="418px" height="72px"/><br/>
+		
+		<img class="img_coupon" src="images/b6g2.png" width="284px" height="43px"/><br/>
+	
+		<a id="coupon_download" href="/html/coupons/buy6-get2.html?coupon=download" target="_self"></a><br/>
+
+		<img class="img_logo" src="images/logo.png" width="180px" height="59px"/>
+
+	</div>
+	
+	<div id="legal">
+
+		<p>Redeemable only at your vet's office.</p>
+		
+		<p class="legal_g">This coupon is provided in the Adobe&reg; PDF format. If you are unable<br />
+		to open or print the document, you many need to visit www.adobe.com<br />
+		to download free Acrobat Reader&reg; software.  <a href="http://get.adobe.com/reader/" target="_blank">Acrobat Reader&reg; Download</a></p>
+		<br/>
+		<p>&reg;FRONTLINE is a registered trademark of Merial. &copy;2010 Merial Limited, Duluth, GA. All rights reserved. FLE10COUPONCMPGN<br />
+		&reg;Adobe and Acrobat are registered trademarks of Adobe Systems Incorporated.</p>
+
+	</div>
+
+	
+</div> <!-- wrapper -->
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-8316264-3");
+			pageTracker._trackEvent("Coupon Offer", "<?php echo $trackerEvent; ?>");
+	} catch(err) {}</script>
+
+</body>
+</html>
